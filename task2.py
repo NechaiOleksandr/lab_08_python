@@ -3,10 +3,10 @@ import random
 
 class Coin:
     def __init__(self):
-        self.__sideUp = random.choice(['heads', 'tails'])
+        self.__sideUp = random.choice(["heads", "tails"])
 
     def toss(self) -> str:
-        self.__sideUp = random.choice(['heads', 'tails'])
+        self.__sideUp = random.choice(["heads", "tails"])
         return self.__sideUp
 
     def get_sideUp(self) -> str:
